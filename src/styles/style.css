@@ -1,0 +1,30 @@
+.sr-only {
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.switch {
+  input {
+    display: flex;
+    width: 50px;
+    height: 30px;
+    padding: 2px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background-color: #e8eef2;
+
+    :checked {
+      background-color: #004fff;
+    }
+  }
+}

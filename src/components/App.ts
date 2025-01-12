@@ -38,12 +38,12 @@ export default function App() {
     Profile({
       href: "#",
       userName: "피카츄",
-      userImg: "src/assets/pika.webp",
+      userImg: "assets/pika.webp",
     }),
     Profile({
       href: "#",
       userName: "피카츄",
-      userImg: "src/assets/pika.webp",
+      userImg: "assets/pika.webp",
       edit: true,
     })
   );

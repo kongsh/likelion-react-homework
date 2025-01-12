@@ -23,7 +23,7 @@ export default function Navigation({ confirmButtonId, headerText }: Navigation) 
           "aria-label": "뒤로 가기",
         },
         h("img", {
-          src: "src/assets/left-angle.svg",
+          src: "assets/left-angle.svg",
           alt: "뒤로 가기",
         })
       ),

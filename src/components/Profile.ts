@@ -22,7 +22,7 @@ export default function Profile({ href, userName, userImg, edit = false }: Profi
   let imgProps: ImgProps = {
     // 기본 값 설정
     alt: "프로필 추가",
-    src: "src/assets/profile-plus.svg",
+    src: "assets/profile-plus.svg",
     className: "profile-add",
   };
 
@@ -51,7 +51,7 @@ export default function Profile({ href, userName, userImg, edit = false }: Profi
         ? h("img", {
             className: "edit",
             "aria-hidden": true,
-            src: "src/assets/profile-edit.svg",
+            src: "assets/profile-edit.svg",
           })
         : null
     ),

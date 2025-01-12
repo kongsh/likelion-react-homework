@@ -130,6 +130,7 @@ body {
     & .profile-add {
       width: 32px;
       height: 32px;
+      margin: 34px;
     }
 
     & .edit {
@@ -145,5 +146,35 @@ body {
   p {
     margin: 0;
     white-space: nowrap;
+  }
+}
+
+.navigation {
+  nav {
+    width: 393px;
+    display: flex;
+    box-sizing: border-box;
+    height: 42px;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+  }
+
+  h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    min-width: 42px;
+    box-sizing: border-box;
   }
 }

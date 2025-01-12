@@ -2,26 +2,25 @@ import React from "react";
 
 const { createElement: h } = React;
 
-interface Switch {
+interface Chip {
   id: string;
   labelText: string;
 }
 
-export default function Switch({ id, labelText }: Switch) {
+export default function Chip({ id, labelText }: Chip) {
   return h(
     "div",
     {
-      className: "switch",
+      className: "chip",
     },
     h(
       "label",
       null,
-      h("span", { className: "sr-only" }, labelText),
       h("input", {
-        role: "switch",
         type: "checkbox",
         id,
-      })
+      }),
+      h("span", null, labelText)
     )
   );
 }

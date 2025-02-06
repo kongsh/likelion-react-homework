@@ -6,7 +6,7 @@ import Navigation from "./Navigation";
 
 const { createElement: h } = React;
 
-export default function App() {
+export function App() {
   return h(
     Fragment,
     null,

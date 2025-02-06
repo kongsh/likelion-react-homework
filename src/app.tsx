@@ -3,7 +3,7 @@ import { useState } from "react";
 import { getUIView } from "./lib/ui-view";
 import Nav from "./components/nav";
 import { App as WeekOneApp } from "./week1/components/App";
-import Cart from "./week5/Cart";
+import Cart from "./week5/cart";
 
 const getViewComponent = (uiView: string) => {
   let viewElement: React.ReactElement | null = null;

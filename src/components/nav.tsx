@@ -11,7 +11,7 @@ const navList = [
 
 function Nav() {
   return (
-    <nav className="nav">
+    <nav className="nav flex gap-4">
       <h2 className="sr-only">페이지 탐색</h2>
       {navList.map((navItem) => (
         <NavLink key={navItem.id} href={navItem.href}>

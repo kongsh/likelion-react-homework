@@ -67,7 +67,7 @@ function Cart() {
       <ul className="flex flex-col gap-5 my-5">
         {PRODUCTS.map(({ productName, productImg, price, id }, index) => (
           <li key={id}>
-            <ProductList productName={productName} price={price} productImg={productImg} count={counts[index]} handleIncrease={() => handleIncrease(index)} handleDecrease={() => handleDecrease(index)} />
+            <ProductList productName={productName} price={price} productImg={productImg} count={counts[index]} maxCount={PRODUCTS[index].maxCount} handleIncrease={() => handleIncrease(index)} handleDecrease={() => handleDecrease(index)} />
           </li>
         ))}
       </ul>

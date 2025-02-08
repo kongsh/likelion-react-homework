@@ -12,6 +12,11 @@
   --color-primary-500: #2402f6;
   --color-primary-700: #1e1179;
   --color-mint-200: #e6f7ff;
+  --color-cart-gray-100: #eee;
+  --color-cart-gray-300: #b3b3b3;
+  --color-cart-gray-400: #999;
+  --color-cart-gray-700: #4d4d4d;
+  --color-cart-gray-900: #1a1a1a;
 }
 
 @utility wrapper {

@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://kongsh.github.io/likelion-react-homework/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "dep": "gh-pages -d dist"
+    "predep": "npm run build",
+    "dep": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^18.3.1",

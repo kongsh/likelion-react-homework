@@ -10,8 +10,11 @@ function NavLink({ href, children, activeClassName = "active", className, ...res
   const view = getUIView();
   const isActive = view.includes(href);
 
+  const basePath = window.location.pathname; // "/likelion-react-homework" 포함
+  const fullHref = `${basePath}?view=${href}`;
+
   return (
-    <a href={`/?view=${href}`} className={tm(isActive && activeClassName, className)} aria-current={isActive ? "page" : undefined} {...restProps}>
+    <a href={fullHref} className={tm(isActive && activeClassName, className)} aria-current={isActive ? "page" : undefined} {...restProps}>
       {children}
     </a>
   );

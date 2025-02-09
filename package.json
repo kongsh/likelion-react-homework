@@ -9,8 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predep": "npm run build",
-    "dep": "gh-pages -d build"
+    "dep": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",

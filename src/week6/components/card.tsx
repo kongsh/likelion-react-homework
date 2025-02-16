@@ -15,7 +15,7 @@ function Card({ item }: CardProps) {
         'rounded-lg border border-search-gray-200'
       )}
     >
-      <h3 className="font-semibold text-lg text-search-gray-900">{title}</h3>
+      <h4 className="font-semibold text-lg text-search-gray-900">{title}</h4>
       <p className="text-search-gray-500">{description}</p>
       <div className="flex gap-2 text-xs text-search-gray-800 font-medium">
         {tags.map((item) => (

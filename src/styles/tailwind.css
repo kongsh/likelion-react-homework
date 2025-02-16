@@ -12,11 +12,19 @@
   --color-primary-500: #2402f6;
   --color-primary-700: #1e1179;
   --color-mint-200: #e6f7ff;
+
   --color-cart-gray-100: #eee;
   --color-cart-gray-300: #b3b3b3;
   --color-cart-gray-400: #999;
   --color-cart-gray-700: #4d4d4d;
   --color-cart-gray-900: #1a1a1a;
+
+  --color-search-gray-200: #e5e7eb;
+  --color-search-gray-300: #f3f4f6;
+  --color-search-gray-400: #6b7280;
+  --color-search-gray-500: #4b5563;
+  --color-search-gray-800: #1f2937;
+  --color-search-gray-900: #111827;
 }
 
 @utility wrapper {

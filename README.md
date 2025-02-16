@@ -7,4 +7,4 @@
 | 1주차 | [UI Development Practice](./md/week1.md)                              |
 | 2주차 | [vite-react-ts 템플릿](https://github.com/kongsh/likelion-vite-react) |
 | 5주차 | [쇼핑 카트 UI 구현](./md/week5.md)                                    |
-| 5주차 | [쇼핑 카트 UI 구현](./md/week6.md)                                    |
+| 6주차 | [카드 검색 리스트 UI 구현](./md/week6.md)                             |

@@ -15,7 +15,8 @@ function SearchCheckBox({ tag, words, handleCheck }: SearchCheckBoxProps) {
         'cursor-pointer',
         'inline-flex gap-1 items-center',
         'bg-white px-4 py-2 border border-search-gray-200 rounded-sm',
-        'has-checked:bg-black has-checked:text-white'
+        'has-checked:bg-black has-checked:text-white',
+        'has-focus:outline-1'
       )}
     >
       <input

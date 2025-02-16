@@ -7,6 +7,11 @@ const navList = [
     content: "5주차",
     href: "week5",
   },
+  {
+    id: "item-3",
+    content: "6주차",
+    href: "week6",
+  },
 ];
 
 function Nav() {

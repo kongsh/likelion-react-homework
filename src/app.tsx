@@ -5,6 +5,7 @@ import Nav from "./components/nav";
 import { App as WeekOneApp } from "./week1/components/App";
 import Cart from "./week5/cart";
 import { tm } from "@/utils/tw-merge";
+import SearchPage from "./week6";
 
 const getViewComponent = (uiView: string) => {
   let viewElement: React.ReactElement | null = null;
@@ -15,6 +16,10 @@ const getViewComponent = (uiView: string) => {
     }
     case "week5": {
       viewElement = <Cart />;
+      break;
+    }
+    case "week6": {
+      viewElement = <SearchPage />;
       break;
     }
   }

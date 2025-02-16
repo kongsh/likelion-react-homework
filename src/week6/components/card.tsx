@@ -58,7 +58,7 @@ function Card({ item }: CardProps) {
               </g>
             </g>
           </svg>
-          <time dateTime={readTime}>몇분전</time>
+          <time dateTime={readTime}>5 mins read</time>
         </span>
         <span className="flex items-center gap-1">
           <svg
